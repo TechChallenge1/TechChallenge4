@@ -26,7 +26,7 @@ df = df[['Close']]
 data_scaled = scaler.transform(df)
 
 # Criar sequências de entrada
-SEQ_LENGTH = 100
+SEQ_LENGTH = 50
 
 def create_sequences(data, seq_length):
     X, y = [], []
